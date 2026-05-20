@@ -11,10 +11,9 @@
 ## Navigation
 
 - 1x navigation cannot be skipped
-- 1x link has no accessible name
+- 2x link has no accessible name
 - 1x no focus trap in navigation modal
 - 1x clicking the button of the site the user is currently on, nothing changes
-- 1x link has no accessible name
 - 1x link instead of button
 
 ## Hero
@@ -24,10 +23,11 @@
 - 1x button cannot be activated by keyboard
 - 1x button has no accessible name
 - 1x status report has no aria attribute
-- 2x bad heading order
+- 1x bad heading order
 
 ## Quote
 
+- 1x text is justified
 - 1x elements overlap
 - 1x quote uses bad html structures
 - 1x decorative image is not marked as decoration
