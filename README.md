@@ -1,24 +1,57 @@
 # inaccessible-website
-The [inaccessible website](https://nelilly.github.io/inaccessible-website/) is a playground to help designers and developers understand how to test for and remediate potential accessibility issues.
 
-It's primarily intended to be used with the [a11y-manual-testing](https://github.com/nelilly/a11y-manual-testing) and [a11y-workflow](https://github.com/nelilly/a11y-workflow) repositories.
+## General
 
-I discovered that once you know good design accessibility design principles, it's very hard to make a bad website.
+- 1x no lang attribute
+- 1x user scalable prevents zooming
+- 1x site has overflow-x
+- 1x no focus indicators at all
+- 1x navigation items can be tabbed through even if they are not visible
 
-## Issues Found in Design
-- Background and foreground colors must have a sufficient contrast ratio.
+## Navigation
 
-## Issues Found in Automated Testing 
-- `:focus` styles are turned off.
-- Many `img` elements are missing `alt` attribbutes.
-- Many `input` elements do not have associated labels.
-- In the carousel and gallery, links do not have discernible text.
-- Headlines in the `header` are out of order (h3 follows h1).
-- Search form submit button does not contain discernible text.
-- Font sizes in the footer are too small.
+- 1x navigation cannot be skipped
+- 1x link has no accessible name
+- 1x no focus trap in navigation modal
+- 1x clicking the button of the site the user is currently on, nothing changes
+- 1x link has no accessible name
+- 1x link instead of button
 
-## Issues Found in Manual Testing
-- When the navigation opens the user is not directed to that content.
-- The navigation close button contains `×` as text. This will read as "times" in most screen readers.
-- In VoiceOver/Safari/iOS the `h1` requires an `id="skip"` and `tabindex="-1"` to be programmatically focused on from the skip nav using JS. 
-- In VoiceOver/Safari/iOS there is a text node that reads "opens in a new window" below the Contact form.
+## Hero
+
+- 3x insufficient color contrast
+- 1x button cannot be reached by keyboard
+- 1x button cannot be activated by keyboard
+- 1x button has no accessible name
+- 1x status report has no aria attribute
+- 2x bad heading order
+
+## Quote
+
+- 1x elements overlap
+- 1x quote uses bad html structures
+- 1x decorative image is not marked as decoration
+- 1x link relies on color alone
+
+## Todo List
+
+- 1x image has wrong alt attribute
+- 1x input has no label
+- 23x button cannot be reached by keyboard
+- 23x button cannot be activated by keyboard
+- 12x button has no accessible name
+- 1x article instead of form
+- 1x text animation has no aria attribute
+- 1x insufficient color contrast
+
+## Images
+
+- 1x dl has no dt element
+- 4x image has no accessible name
+
+## Footer
+
+- 4x link has no accessible name
+- 1x insufficient color contrast
+- 3x link has insufficient clickable space
+- 9x link relies on color alone
