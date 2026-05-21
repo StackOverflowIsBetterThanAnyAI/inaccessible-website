@@ -1,6 +1,8 @@
 # inaccessible-website
 
-## General
+## Home
+
+### General
 
 - 1x no lang attribute
 - 1x user scalable prevents zooming
@@ -8,7 +10,7 @@
 - 1x no focus indicators at all
 - 1x navigation items can be tabbed through even if they are not visible
 
-## Navigation
+### Navigation
 
 - 1x navigation cannot be skipped
 - 2x link has no accessible name
@@ -16,7 +18,7 @@
 - 1x clicking the button of the site the user is currently on, nothing changes
 - 1x link instead of button
 
-## Hero
+### Hero
 
 - 3x insufficient color contrast
 - 1x button cannot be reached by keyboard
@@ -25,7 +27,7 @@
 - 1x status report has no aria attribute
 - 1x bad heading order
 
-## Quote
+### Quote
 
 - 1x text is justified
 - 1x elements overlap
@@ -33,7 +35,7 @@
 - 1x decorative image is not marked as decoration
 - 1x link relies on color alone
 
-## Todo List
+### Todo List
 
 - 1x image has wrong alt attribute
 - 1x input has no label
@@ -44,14 +46,75 @@
 - 1x text animation has no aria attribute
 - 1x insufficient color contrast
 
-## Images
+### Images
 
 - 1x dl has no dt element
 - 4x image has no accessible name
 
-## Footer
+### Footer
 
 - 4x link has no accessible name
 - 1x insufficient color contrast
 - 3x link has insufficient clickable space
 - 9x link relies on color alone
+
+## Isolated
+
+### General
+
+- 1x no lang attribute
+- 1x user scalable prevents zooming
+- 1x site has overflow-x
+- 1x no focus indicators at all
+- 1x navigation items can be tabbed through even if they are not visible
+
+### Navigation
+
+- 1x navigation cannot be skipped
+- 2x link has no accessible name
+- 1x no focus trap in navigation modal
+- 1x clicking the button of the site the user is currently on, nothing changes
+- 1x link instead of button
+
+### Hero
+
+- 2x insufficient color contrast
+- 1x button cannot be reached by keyboard
+- 1x button cannot be activated by keyboard
+- 1x button has no accessible name
+- 1x status report has no aria attribute
+- 1x bad heading order
+
+### Quotes
+
+- 2x elements overlap
+- 2x quote uses bad html structures
+
+### Paragraphs
+
+- 2x text is justified
+- 3x tooltip is cannot be reached by keyboard
+- 2x link cannot be reached by keyboard
+- 2x link cannot be activated by keyboard
+- 1x image not marked as decoration
+
+### Carousel
+
+- 1x link cannot be activated by keyboard
+- 5x image has no alt attribute
+- 2x button cannot be reached by keyboard
+- 2x button cannot be activated by keyboard
+- 1x text animation has no aria attribute
+- 1x insufficient color contrast
+
+### Images
+
+- 1x dl has no dt element
+- 8x image has no accessible name
+
+### Footer
+
+- 4x link has no accessible name
+- 1x insufficient color contrast
+- 3x link has insufficient clickable space
+- 14x link relies on color alone
