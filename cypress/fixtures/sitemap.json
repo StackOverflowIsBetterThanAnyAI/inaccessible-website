@@ -1,1 +1,1 @@
-{ "config": { "only": ["/isolated"] } }
+{ "config": { "only": ["/remote"] } }
