@@ -1,1 +1,6 @@
-{ "config": { "only": ["/remote"] } }
+{
+    "config": {
+        "only": ["/remote"]
+    },
+    "urls": ["/remote"]
+}
